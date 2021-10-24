@@ -1,7 +1,5 @@
 package com.pb.sirosh.hw3;
-//package array;
 import java.util.Scanner;
-//package loop;
 
 public class Array  {
 
@@ -59,13 +57,5 @@ public class Array  {
 
     }
 }
-
-
-
-        //System.out.println("input mas len: ");
-        //int x = scanner.nextInt();
-
-       // String[] array = new String[x];
-
 
 
