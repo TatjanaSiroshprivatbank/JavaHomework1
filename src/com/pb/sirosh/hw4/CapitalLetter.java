@@ -1,6 +1,4 @@
 package com.pb.sirosh.hw4;
-
-
 import java.util.Scanner;
 
 public class CapitalLetter {
@@ -37,22 +35,3 @@ public class CapitalLetter {
         System.out.println(chArray);
     }
 }
-
-
-
-
-
-
-
-//System.out.println("Символ \\t это пустое пространство: " + Character.isWhitespace('\t'));
-//        System.out.println("Верхний регистр символа а: " + Character.toUpperCase('а'));
-//        System.out.println("Нижний регистр символа А: " + Character.toLowerCase('А'));
-
-
-//    private static void concatPlus() {
-//        String s = "";
-//        for (int i = 0; i < 10_000; i++) {
-//            s = s + "a";
-//        }
-//        System.out.println("concatPlus длинна строки: " + s.length());
-//    }
