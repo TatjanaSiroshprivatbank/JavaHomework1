@@ -22,4 +22,23 @@ public enum Size {
         }
     }
 
+    void getEuroSize() {
+        switch (arg) {
+            case XXS:
+                System.out.println("Европейский размер: 32");
+                break;
+            case XS:
+                System.out.println("Европейский размер: 34");
+                break;
+            case S:
+                System.out.println("Европейский размер: 36");
+                break;
+            case M:
+                System.out.println("Европейский размер: 38");
+                break;
+            case L:
+                System.out.println("Европейский размер: 40");
+                break;
+        }
+    }
 }
