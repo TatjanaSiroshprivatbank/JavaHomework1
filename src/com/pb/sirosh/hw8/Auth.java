@@ -25,11 +25,11 @@ public class Auth {
         }
         else {
             throw new WrongPasswordException();
-        }
+             }
     }
 
     public void signIn(String login, String password) throws WrongLoginException {
-        if (!login.equals(login) || !password.equals(password)) {
+        if (!login.equals(this.login) || !password.equals(this.password)) {
             throw new WrongLoginException();
         }
     }
